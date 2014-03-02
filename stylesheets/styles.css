@@ -36,12 +36,12 @@ body {
   background: url('../img/classy_fabric.png');
   padding:50px;
   font:14px/1.5 Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
-  color: #807371;
+  color: white;
   font-weight:bold;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  color: #BFACA9;
+  color: rgb(250, 166, 26);
   margin:0 0 20px;
 }
 
@@ -54,7 +54,8 @@ h1, h2, h3 {
 }
 
 h1 {
-  font-size:28px;
+  /*font-size:28px;*/
+  font-size:52px;
 }
 
 h2 {
@@ -62,16 +63,16 @@ h2 {
 }
 
 h3, h4, h5, h6 {
-  color:#BFACA9;
+  color: rgb(250, 166, 26);
 }
 
 a {
-  color:#807371;
+  color:white;
   font-weight:400;
   text-decoration:none;
 }
 a:hover, a:active {
-  color: #FFE6E2;
+  color: rgb(250, 166, 26);
 }
 
 a small {
@@ -79,6 +80,16 @@ a small {
   color:#777;
   margin-top:-0.6em;
   display:block;
+}
+
+.subtitle {
+  font-size: 16px;
+  font-style: italic;
+  font-weight: lighter;
+}
+
+.bullet {
+  color: rgb(250, 166, 26);
 }
 
 .wrapper {
